@@ -1,10 +1,10 @@
 nav{
     .logo{
-        background: url(../../img/logo-header.png);
+        background: url(../img/logo-header.png);
         width: 220px;
         height: 40px;
         @include mobile{
-            background: url(../../img/logo-header-sm.png);
+            background: url(../img/logo-header-sm.png);
             width: 114px;
             height: 18px;
         }
