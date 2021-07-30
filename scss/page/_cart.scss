@@ -20,7 +20,9 @@
         width: 48px;
     }
     .cost{
-        border-top: 1px solid $secondary;
-        padding-top: 8px;
+        @include mobile{
+            border-top: 1px solid $secondary;
+            padding-top: 8px;
+        }
     }
 }
